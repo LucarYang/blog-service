@@ -30,12 +30,18 @@ func NewRouter() *gin.Engine {
 	//r.Use(gin.Logger())
 	//r.Use(gin.Recovery())
 
-	if global.ServerSetting.RunMode == "debug" {
+	if global.ServerSetting.RunMode == "debug1" {
 		r.Use(gin.Logger())
 		r.Use(gin.Recovery())
 	} else {
-		r.Use(middleware.AccessLog())
-		r.Use(middleware.Recovery())
+		//r.Use(middleware.AccessLog())
+		//r.Use(middleware.Recovery())
+		//middleware.InitLogger(middleware.LogConfig{
+		//	Filename: "",
+		//
+		//})
+		r.Use(middleware.GinLogger())
+		r.Use(middleware.GinRecovery(true))
 	}
 
 	r.Use(middleware.RateLimiter(methodLimiters))
