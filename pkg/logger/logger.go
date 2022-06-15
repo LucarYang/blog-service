@@ -175,3 +175,7 @@ func (l *Logger) Errorf(format string, v ...interface{}) {
 func (l *Logger) Debugger(format string, v ...interface{}) {
 	l.Output(LevelDebug, fmt.Sprintf(format, v...))
 }
+
+func (l *Logger) Panicf(format string, v ...interface{}) {
+	l.Output(LevelPanic, fmt.Sprintf(format, v...))
+}

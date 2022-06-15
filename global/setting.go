@@ -16,4 +16,5 @@ var (
 	DatabaseSetting *setting.DatabaseSettingS //数据库的全局变量对象
 	Logger          *logger.Logger            //日志的全局变量对象
 	JWTSetting      *setting.JWTSettingS
+	EmailSetting    *setting.EmailSettingS
 )

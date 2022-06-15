@@ -19,7 +19,7 @@ App:
 Database:
   DBType: mysql
   Username: root
-  Password: 12345678
+  Password: 123456
   Host: 127.0.0.1:3306
   DBName: blog_service
   TablePrefix: blog_
@@ -31,3 +31,12 @@ JWT:
   Secret: eddycjy
   Issuer: blog-service
   Expire: 7200
+Email:
+  Host: smtp.qq.com
+  Port: 465
+  UserName: 1446376488@qq.com
+  Password: 123456yl
+  IsSSL: true
+  From: 1446376488@qq.com
+  To:
+    - 609387543@qq.com

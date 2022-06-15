@@ -193,3 +193,113 @@
 2022/05/29 22:20:53 {"callers":["/Users/yanglu/go/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1653834053482825000}
 2022/05/29 22:21:22 {"callers":["/Users/yanglu/go/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1653834082869609000}
 2022/05/29 22:21:22 {"callers":["/Users/yanglu/go/src/blog-service/main.go: 27 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1653834082874801000}
+2022/06/15 10:44:41 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261081806651600}
+2022/06/15 10:44:41 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261081973125200}
+2022/06/15 10:45:12 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261112225706400}
+2022/06/15 10:45:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261122373244800}
+2022/06/15 10:49:29 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261369586901200}
+2022/06/15 10:49:29 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261369607217700}
+2022/06/15 10:49:29 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261369607798800}
+2022/06/15 10:49:29 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261369608357500}
+2022/06/15 10:49:29 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261369913247900}
+2022/06/15 10:49:29 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261369994608500}
+2022/06/15 10:50:17 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261417392208700}
+2022/06/15 10:50:17 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261417586273500}
+2022/06/15 10:50:17 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261417586731000}
+2022/06/15 10:50:17 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261417588208900}
+2022/06/15 10:50:17 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261417864810300}
+2022/06/15 10:50:18 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655261418003514300}
+2022/06/15 11:12:40 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655262760603344600}
+2022/06/15 11:12:40 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"error","message":"svc.CheckAuth err: Error 1146: Table 'blog_service.blog_auth' doesn't exist","time":1655262760661576000}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263446242580600}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進來了","time":1655263446243674500}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263446270074400}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進來了","time":1655263446270876200}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263446270876200}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263446271386000}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進來了","time":1655263446273396700}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進來了","time":1655263446276840500}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263446582175100}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進來了","time":1655263446582716800}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263446592255500}
+2022/06/15 11:24:06 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進來了","time":1655263446738219200}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263587755730200}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263587757150500}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263587757150500}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263587777946100}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263587777946100}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263587778556200}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263587778556200}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263587780473500}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263587780473500}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263587780473500}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263587782475700}
+2022/06/15 11:26:27 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263587782475700}
+2022/06/15 11:26:28 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263588061257600}
+2022/06/15 11:26:28 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263588062383500}
+2022/06/15 11:26:28 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263588062383500}
+2022/06/15 11:26:28 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263588066120100}
+2022/06/15 11:26:28 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263588205211100}
+2022/06/15 11:26:28 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263588205211100}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263642760447200}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263642762123500}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263642762123500}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263642783287300}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263642783287300}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263642785744200}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263642786756200}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263642787335900}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263642787888100}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263642787888100}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263642788487500}
+2022/06/15 11:27:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263642788487500}
+2022/06/15 11:27:23 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263643086812200}
+2022/06/15 11:27:23 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263643087348300}
+2022/06/15 11:27:23 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263643087348300}
+2022/06/15 11:27:23 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263643093627500}
+2022/06/15 11:27:23 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263643232366300}
+2022/06/15 11:27:23 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263643232917400}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263804393854000}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263804395488400}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263804395488400}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263804414325500}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263804415199000}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263804415706600}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263804415706600}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263804416020400}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263804417123100}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263804417123100}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263804417123100}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263804417123100}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263804715427100}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263804716547800}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263804716547800}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655263804721751400}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655263804859950600}
+2022/06/15 11:30:04 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655263804859950600}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655270318740365200}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655270318742092000}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655270318742092000}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655270318774503500}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655270318774503500}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655270318776021700}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655270318778020600}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655270318778020600}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655270318778020600}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655270318778244300}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655270318778020600}
+2022/06/15 13:18:38 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655270318778244300}
+2022/06/15 13:18:39 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655270319044633100}
+2022/06/15 13:18:39 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655270319046400200}
+2022/06/15 13:18:39 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655270319046400200}
+2022/06/15 13:18:39 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655270319050831000}
+2022/06/15 13:18:39 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 進入率了","time":1655270319209841200}
+2022/06/15 13:18:39 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"Recovery 出去了","time":1655270319209841200}
+2022/06/15 13:30:55 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655271055171722300}
+2022/06/15 13:30:55 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655271055194496600}
+2022/06/15 13:30:55 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655271055195121700}
+2022/06/15 13:30:55 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655271055195954600}
+2022/06/15 13:30:55 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655271055483674500}
+2022/06/15 13:30:55 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655271055491823400}
+2022/06/15 13:31:21 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655271081997598100}
+2022/06/15 13:31:22 {"callers":["D:/Go_works/src/blog-service/main.go: 27 main.init.0"],"level":"error","message":"svc.CountTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","time":1655271082381346600}

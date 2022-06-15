@@ -70,6 +70,10 @@ func setupSetting() error {
 	if err != nil {
 		return err
 	}
+	err = setting.ReadSection("Email", &global.EmailSetting)
+	if err != nil {
+		return err
+	}
 
 	global.ServerSetting.HttpPort = "8080"
 	global.ServerSetting.ReadTimeout *= time.Second
