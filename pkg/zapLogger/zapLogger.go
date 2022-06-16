@@ -1,6 +1,9 @@
-package middleware
+package zapLogger
 
 import (
+	"blog-service/global"
+	"blog-service/pkg/setting"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
@@ -11,20 +14,13 @@ import (
 	"os"
 	"runtime/debug"
 	"strings"
+	"time"
 )
-
-type LogConfig struct {
-	Level string `json:"level"`
-	Filename string `json:"filename"`
-	MaxSize int `json:"maxsize"`
-	MaxAge int `json:"max_age"`
-	MaxBackups int `json:"max_backups"`
-}
 
 var lg *zap.Logger
 
 // InitLogger 初始化Logger
-func InitLogger(cfg *LogConfig) (err error) {
+func InitLogger(cfg *setting.ZapLoggers) (err error) {
 	writeSyncer := getLogWriter(cfg.Filename, cfg.MaxSize, cfg.MaxBackups, cfg.MaxAge)
 	encoder := getEncoder()
 	var l = new(zapcore.Level)
@@ -36,6 +32,7 @@ func InitLogger(cfg *LogConfig) (err error) {
 
 	lg = zap.New(core, zap.AddCaller())
 	zap.ReplaceGlobals(lg) // 替换zap包中全局的logger实例，后续在其他包中只需使用zap.L()调用即可
+	fmt.Println(" InitLogger 初始化Logger",cfg.Filename, cfg.MaxSize, cfg.MaxBackups, cfg.MaxAge)
 	return
 }
 
@@ -51,7 +48,7 @@ func getEncoder() zapcore.Encoder {
 
 func getLogWriter(filename string, maxSize, maxBackup, maxAge int) zapcore.WriteSyncer {
 	lumberJackLogger := &lumberjack.Logger{
-		Filename:   filename,
+		Filename:   global.AppSetting.LogSavePath + "/" +filename+global.AppSetting.LogFileExt,
 		MaxSize:    maxSize,
 		MaxBackups: maxBackup,
 		MaxAge:     maxAge,
@@ -60,26 +57,26 @@ func getLogWriter(filename string, maxSize, maxBackup, maxAge int) zapcore.Write
 }
 
 // GinLogger 接收gin框架默认的日志
-//func GinLogger() gin.HandlerFunc {
-//	return func(c *gin.Context) {
-//		start := time.Now()
-//		path := c.Request.URL.Path
-//		query := c.Request.URL.RawQuery
-//		c.Next()
-//
-//		cost := time.Since(start)
-//		lg.Info(path,
-//			zap.Int("status", c.Writer.Status()),
-//			zap.String("method", c.Request.Method),
-//			zap.String("path", path),
-//			zap.String("query", query),
-//			zap.String("ip", c.ClientIP()),
-//			zap.String("user-agent", c.Request.UserAgent()),
-//			zap.String("errors", c.Errors.ByType(gin.ErrorTypePrivate).String()),
-//			zap.Duration("cost", cost),
-//		)
-//	}
-//}
+func GinLogger() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		start := time.Now()
+		path := c.Request.URL.Path
+		query := c.Request.URL.RawQuery
+		c.Next()
+
+		cost := time.Since(start)
+		lg.Info(path,
+			zap.Int("status", c.Writer.Status()),
+			zap.String("method", c.Request.Method),
+			zap.String("path", path),
+			zap.String("query", query),
+			zap.String("ip", c.ClientIP()),
+			zap.String("user-agent", c.Request.UserAgent()),
+			zap.String("errors", c.Errors.ByType(gin.ErrorTypePrivate).String()),
+			zap.Duration("cost", cost),
+		)
+	}
+}
 
 // GinRecovery recover掉项目可能出现的panic，并使用zap记录相关日志
 func GinRecovery(stack bool) gin.HandlerFunc {

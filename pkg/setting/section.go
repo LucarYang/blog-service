@@ -58,6 +58,13 @@ type EmailSettingS struct {
 	To       []string
 }
 
+type ZapLoggers struct{
+	Level string `json:"level"`
+	Filename string `json:"filename"`
+	MaxSize int `json:"maxsize"`
+	MaxAge int `json:"max_age"`
+	MaxBackups int `json:"max_backups"`
+}
 func (s *Setting) ReadSection(k string, v interface{}) error {
 	err := s.vp.UnmarshalKey(k, v)
 	if err != nil {

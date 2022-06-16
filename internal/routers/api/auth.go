@@ -5,7 +5,9 @@ import (
 	"blog-service/internal/service"
 	"blog-service/pkg/app"
 	"blog-service/pkg/errcode"
+	"fmt"
 	"github.com/gin-gonic/gin"
+	"go.uber.org/zap"
 )
 
 // @Summary 新增标签
@@ -17,6 +19,8 @@ import (
 // @Failure 500 {object} errcode.Error "内部错误"
 // @Router /auth [post]
 func GetAuth(c *gin.Context) {
+	zap.L().Debug("this is hello func", zap.String("user", "name"), zap.Int("age", 1))
+	fmt.Println("zap 后……")
 	param := service.AuthRequest{}
 	response := app.NewResponse(c)
 	valid, errs := app.BindAndValid(c, &param)

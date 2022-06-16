@@ -40,3 +40,9 @@ Email:
   From: 1446376488@qq.com
   To:
     - 609387543@qq.com
+ZapLogger:
+  Level: debug
+  Filename: zaplog
+  MaxSize: 600
+  MaxAge: 10
+  MaxBackups: 1

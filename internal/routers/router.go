@@ -7,6 +7,7 @@ import (
 	"blog-service/internal/routers/api"
 	v1 "blog-service/internal/routers/api/v1"
 	"blog-service/pkg/limiter"
+	"blog-service/pkg/zapLogger"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
@@ -40,13 +41,15 @@ func NewRouter() *gin.Engine {
 		//	Filename: "",
 		//
 		//})
-		r.Use(middleware.GinLogger())
-		r.Use(middleware.GinRecovery(true))
+		//r.Use(middleware.GinLogger())
+		//r.Use(middleware.GinRecovery(true))
 	}
 
 	r.Use(middleware.RateLimiter(methodLimiters))
 	r.Use(middleware.ContextTimeout(60 * time.Second))
 	r.Use(middleware.Translations()) //注册validator国际化处理中间件
+
+	r.Use(zapLogger.GinLogger(), zapLogger.GinRecovery(true))
 
 	url := ginSwagger.URL("http://127.0.0.1:8080/swagger/doc.json")
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))

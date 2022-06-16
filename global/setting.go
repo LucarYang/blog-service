@@ -17,4 +17,5 @@ var (
 	Logger          *logger.Logger            //日志的全局变量对象
 	JWTSetting      *setting.JWTSettingS
 	EmailSetting    *setting.EmailSettingS
+	ZapLogger       *setting.ZapLoggers
 )

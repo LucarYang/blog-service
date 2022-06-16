@@ -6,6 +6,8 @@ import (
 	"blog-service/internal/routers"
 	"blog-service/pkg/logger"
 	"blog-service/pkg/setting"
+	"blog-service/pkg/zapLogger"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"log"
@@ -28,6 +30,11 @@ func init() {
 	if err != nil {
 		log.Fatalf("init.setupLogger err: %v", err)
 	}
+
+	err=setZapLogger()
+	if err != nil {
+		log.Fatalf("init.setZapLogger err: %v", err)
+	}
 }
 
 // @title 博客系统
@@ -35,6 +42,8 @@ func init() {
 //@description Go 语言编程之旅：一起用 Go 做项目
 //@termsOfService  https://github.com/go-programming-tour-book
 func main() {
+
+
 	gin.SetMode(global.ServerSetting.RunMode)
 	//global.Logger.Infof("%s: go-programming-tour-book/%s", "eddycjy", "blog-service")
 	router := routers.NewRouter()
@@ -74,11 +83,17 @@ func setupSetting() error {
 	if err != nil {
 		return err
 	}
+	err = setting.ReadSection("ZapLogger", &global.ZapLogger)
+	if err != nil {
+		return err
+	}
 
 	global.ServerSetting.HttpPort = "8080"
 	global.ServerSetting.ReadTimeout *= time.Second
 	global.ServerSetting.WriteTimeout *= time.Second
 	global.JWTSetting.Expire *= time.Second
+
+
 	return nil
 }
 
@@ -102,3 +117,12 @@ func setupLogger() error {
 	}, "", log.LstdFlags).WithCaller(2)
 	return nil
 }
+
+func setZapLogger()  error{
+	if err := zapLogger.InitLogger(global.ZapLogger); err != nil {
+		fmt.Printf("init logger failed, err:%v\n", err)
+		return err
+	}
+	return nil
+}
+
