@@ -30,7 +30,7 @@ func init() {
 	if err != nil {
 		log.Fatalf("init.setupLogger err: %v", err)
 	}
-
+    //初始化Uber zap
 	err=setZapLogger()
 	if err != nil {
 		log.Fatalf("init.setZapLogger err: %v", err)

@@ -3,7 +3,6 @@ package zapLogger
 import (
 	"blog-service/global"
 	"blog-service/pkg/setting"
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
@@ -32,7 +31,7 @@ func InitLogger(cfg *setting.ZapLoggers) (err error) {
 
 	lg = zap.New(core, zap.AddCaller())
 	zap.ReplaceGlobals(lg) // 替换zap包中全局的logger实例，后续在其他包中只需使用zap.L()调用即可
-	fmt.Println(" InitLogger 初始化Logger",cfg.Filename, cfg.MaxSize, cfg.MaxBackups, cfg.MaxAge)
+	//fmt.Println(" InitLogger 初始化Logger",cfg.Filename, cfg.MaxSize, cfg.MaxBackups, cfg.MaxAge)
 	return
 }
 
@@ -45,7 +44,7 @@ func getEncoder() zapcore.Encoder {
 	encoderConfig.EncodeCaller = zapcore.ShortCallerEncoder
 	return zapcore.NewJSONEncoder(encoderConfig)
 }
-
+//zap日志配置信息
 func getLogWriter(filename string, maxSize, maxBackup, maxAge int) zapcore.WriteSyncer {
 	lumberJackLogger := &lumberjack.Logger{
 		Filename:   global.AppSetting.LogSavePath + "/" +filename+global.AppSetting.LogFileExt,
