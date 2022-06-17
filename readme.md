@@ -112,6 +112,75 @@ go get -u github.com/alecthomas/template
 go get -u github.com/go-playground/validator/v10
 ```
 
+## 链路跟踪
+
+ 分布式链路追踪就是将一次分布式请求还原成调用链路，将一次分布式请求的调用情况集中展示，比如各个服务节点上的耗时、请求具体到达哪台机器上、每个服务节点的请求状态等等 、
+
+Open Tracing 规范：
+
+Trace 跟踪：
+
+ ![img](https://pics2.baidu.com/feed/7af40ad162d9f2d3fd977039b26b8a1a6127ccf6.png?token=30fa37fc2fd2aef6c3d0274b2b3fc173) 
+
+Span 跨度
+
+ ![img](https://pics2.baidu.com/feed/e61190ef76c6a7ef3b10e682e17daf58f2de66f4.png?token=dc61246197557bf9d8bc0bd29a27fcde) 
+
+
+
+SpanContext 跨度上下文：
+
+ https://baijiahao.baidu.com/s?id=1708807913437543359&wfr=spider&for=pc 
+
+
+
+#### Jaeger 的使用：
+
+**安装**
+
+``` cmd
+docker pull jaegertracing/all-in-one:latest
+```
+
+**linux/amd64 启动**
+
+ ``` cmd
+docker run -d --name jaeger  -e COLLECTOR_ZIPKIN_HOST_PORT=:9411  -p 5775:5775/udp  -p 6831:6831/udp  -p 6832:6832/udp  -p 5778:5778  -p 16686:16686  -p 14250:14250  -p 14268:14268  -p 14269:14269  -p 9411:9411  jaegertracing/all-in-one:latest
+ ```
+
+安装参照: https://zhuanlan.zhihu.com/p/524695029 
+
+Windows操作docker 命令
+
+``` dockerfile
+docker version
+
+docker images
+
+docker ps -a      //命令查看所有docker容器
+
+docker start jaeger  //启动容器 
+
+docker restart 容器ID
+```
+
+参照： https://www.csdn.net/tags/Mtzakg4sNjY4ODAtYmxvZwO0O0OO0O0O.html 
+
+
+
+
+
+
+
+安装第三方插件
+
+``` cmd
+go get github.com/opentracing/opentracing-go v1.2.0
+go get github.com/uber/jaeger-client-go v2.22.1
+```
+
+
+
 
 
 ### 特性

@@ -6,6 +6,7 @@ import (
 	"blog-service/internal/routers"
 	"blog-service/pkg/logger"
 	"blog-service/pkg/setting"
+	"blog-service/pkg/tracer"
 	"blog-service/pkg/zapLogger"
 	"fmt"
 	"github.com/gin-gonic/gin"
@@ -34,6 +35,12 @@ func init() {
 	err=setZapLogger()
 	if err != nil {
 		log.Fatalf("init.setZapLogger err: %v", err)
+	}
+
+	//
+	err=setupTracer()
+	if err != nil {
+		log.Fatalf("init.setupTracer err:{0}",err)
 	}
 }
 
@@ -88,6 +95,7 @@ func setupSetting() error {
 		return err
 	}
 
+
 	global.ServerSetting.HttpPort = "8080"
 	global.ServerSetting.ReadTimeout *= time.Second
 	global.ServerSetting.WriteTimeout *= time.Second
@@ -126,3 +134,17 @@ func setZapLogger()  error{
 	return nil
 }
 
+func setupTracer() error {
+	jaegerTracr,_,err:=tracer.NewJaegerTracer("blog-service","127.0.0.1:6831")
+	if err!=nil{
+		return err
+	}
+	global.Tracer=jaegerTracr
+	return nil
+}
+
+
+
+
+//最好的投资是投资自己 当你某项能力学到足以打败大多数人的时候 牛马人的命运自然迎刃而解
+//通过学习获得杠杆

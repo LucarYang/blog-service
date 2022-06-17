@@ -398,3 +398,49 @@
 2022/06/16 16:35:47 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CheckAuth err: Error 1146: Table 'blog_service.blog_auth' doesn't exist","time":1655368547792866700}
 2022/06/16 16:40:39 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655368839850258000}
 2022/06/16 16:40:39 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"error","message":"svc.CheckAuth err: Error 1146: Table 'blog_service.blog_auth' doesn't exist","time":1655368839866694200}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002881583900}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002891494200}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002908757600}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002925372500}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002932339900}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002942391800}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002952577800}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002968110100}
+2022/06/16 17:50:02 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373002984461800}
+2022/06/16 17:50:03 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373003004435500}
+2022/06/16 17:50:03 {"callers":["D:/Go_works/src/blog-service/main.go: 29 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655373003048368100}
+2022/06/17 12:47:40 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655441260036715200}
+2022/06/17 12:48:15 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655441295787601700}
+2022/06/17 13:25:49 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443549788742200}
+2022/06/17 13:25:49 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443549922036600}
+2022/06/17 13:25:49 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443549922969600}
+2022/06/17 13:25:49 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443549924088900}
+2022/06/17 13:25:50 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443550163635400}
+2022/06/17 13:26:00 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443560953643000}
+2022/06/17 13:26:01 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CheckAuth err: Error 1146: Table 'blog_service.blog_auth' doesn't exist","time":1655443561703883900}
+2022/06/17 13:28:45 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443725157856500}
+2022/06/17 13:28:45 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CountTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","time":1655443725184936400}
+2022/06/17 13:31:25 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655443885468855100}
+2022/06/17 13:46:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655444765067558000}
+2022/06/17 13:46:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655444765114138700}
+2022/06/17 13:46:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655444765115023700}
+2022/06/17 13:46:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655444765115023700}
+2022/06/17 13:46:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655444765434734300}
+2022/06/17 13:46:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655444765443013600}
+2022/06/17 13:46:14 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655444774780967800}
+2022/06/17 13:46:14 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CountTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","time":1655444774871892800}
+2022/06/17 13:54:04 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445244810155500}
+2022/06/17 13:54:04 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445244876786800}
+2022/06/17 13:54:04 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445244876786800}
+2022/06/17 13:54:04 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445244876786800}
+2022/06/17 13:54:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445245132927700}
+2022/06/17 13:54:05 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445245140978000}
+2022/06/17 13:54:23 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445263098770600}
+2022/06/17 13:54:23 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CountTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","span_id":"0f573cb77d7203d8","time":1655445263490485800,"trace_id":"0f573cb77d7203d8"}
+2022/06/17 13:54:33 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"debug","message":"locale 是个啥: ","time":1655445273312630900}
+2022/06/17 13:54:33 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CheckAuth err: Error 1146: Table 'blog_service.blog_auth' doesn't exist","span_id":"50e5e586f4b34994","time":1655445273315696700,"trace_id":"50e5e586f4b34994"}
+2022/06/17 14:05:01 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CountTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","span_id":"3d32cf1b530fb5c1","time":1655445901196267600,"trace_id":"3d32cf1b530fb5c1"}
+2022/06/17 14:12:53 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CountTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","span_id":"65bfa05de439f56a","time":1655446373100698300,"trace_id":"65bfa05de439f56a"}
+2022/06/17 14:12:58 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CheckAuth err: Error 1146: Table 'blog_service.blog_auth' doesn't exist","span_id":"790ecec0de845c4b","time":1655446378376782400,"trace_id":"790ecec0de845c4b"}
+2022/06/17 14:13:09 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CreateTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","span_id":"448caf1f7cbd1bd3","time":1655446389148625600,"trace_id":"448caf1f7cbd1bd3"}
+2022/06/17 14:20:58 {"callers":["D:/Go_works/src/blog-service/main.go: 30 main.init.0"],"level":"error","message":"svc.CountTag err: Error 1146: Table 'blog_service.blog_tag' doesn't exist","span_id":"244facd36e6130a7","time":1655446858285611900,"trace_id":"244facd36e6130a7"}

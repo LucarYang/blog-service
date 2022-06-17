@@ -1,7 +1,6 @@
 package middleware
 
 import (
-	"blog-service/global"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/locales/en"
@@ -22,7 +21,7 @@ func Translations() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		uni := ut.New(en.New(), zh.New(), zh_Hant_TW.New())
 		locale := c.GetHeader("locale")
-		global.Logger.Debugger("locale 是个啥: %v", locale)
+		//global.Logger.Debugger("locale 是个啥: %v", locale)
 		trans, _ := uni.GetTranslator(locale)
 		v, ok := binding.Validator.Engine().(*validator.Validate)
 		if ok {

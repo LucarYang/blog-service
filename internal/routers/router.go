@@ -50,6 +50,7 @@ func NewRouter() *gin.Engine {
 	r.Use(middleware.Translations()) //注册validator国际化处理中间件
 
 	r.Use(zapLogger.GinLogger(), zapLogger.GinRecovery(true)) //注册zap中间件
+	r.Use(middleware.Tracing())
 
 	url := ginSwagger.URL("http://127.0.0.1:8080/swagger/doc.json")
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
