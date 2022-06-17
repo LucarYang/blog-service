@@ -25,12 +25,19 @@ blog-service
 │   └── service
 ├── pkg
 │   ├── app
+│   ├── email
 │   ├── convert
 │   ├── errcode
+│   ├── limiter
 │   ├── logger
 │   ├── setting
+│   ├── tracer
+│   ├── upload
+│   ├── zaplogger
 │   └── until
 ├── storage
+│   ├── logs
+│   └── uploads
 ├── scripts
 └── third_party
 ```
@@ -168,7 +175,7 @@ docker restart 容器ID
 
 
 
-
+在浏览器中访问webUI： [http://localhost:16686](http://localhost:16686/) 
 
 
 
